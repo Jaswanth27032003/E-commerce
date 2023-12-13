@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad&family=Dancing+Script:wght@400;500;600;700&family=Kalnia:wght@700&family=Montserrat:ital,wght@0,100;0,200;0,600;1,100&family=Noto+Serif:wght@300&family=Poppins:wght@200;300;500&family=Prompt:wght@100;200;300;400;500&family=Rethink+Sans&family=Roboto+Mono:wght@200;300&family=Roboto+Slab&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+
+img {
+    height: 60px;
+    width: 60px;
+    /* margin-bottom: 10px; */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.list {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    text-decoration: none;
+    width: 250px;
+    height: 30px;
+    color: #333;
+    display: block;
+    padding: 10px;
+    padding-top: 2rem;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: wheat;
+}
+
+
+.container {
+    display: flex;
+    margin: 4rem 1rem 0 3rem;
+}
+
+.kitchen {
+    display: flex;
+    gap: 1rem;
+
+}
+
+.cat1 a img {
+    position: relative;
+    width: 350px;
+    height: 200px;
+    border-radius: 15px;
+    opacity: 75%;
+}
+
+.cat1 a img:hover {
+    opacity: 100%;
+}
+
+.title {
+    color: white;
+    left: 4rem;
+    position: absolute;
+    font-size: 2rem;
+    transform: translateY(-7rem);
+
+}
+
+.cat2 a img {
+    position: relative;
+    width: 350px;
+    height: 200px;
+    border-radius: 15px;
+    opacity: 75%;
+}
+
+.cat2 a img:hover {
+    opacity: 100%;
+}
+
+.title2 {
+    position: absolute;
+    color: white;
+    font-size: 2rem;
+    left: 27rem;
+    transform: translateY(-7rem);
+}

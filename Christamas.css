@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad&family=Dancing+Script:wght@400;500;600;700&family=Kalnia:wght@700&family=Montserrat:ital,wght@0,100;0,200;0,600;1,100&family=Poppins:wght@200;300;500&family=Prompt:wght@100;200;300;400;500&family=Rethink+Sans&display=swap');
+
+.nav-bar {
+    height: 70px;
+    background-color: wheat;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    margin-top: 15px;
+    margin: 13px 0 0 35px;
+    font-weight: 700;
+    font-size: 35px;
+    background: linear-gradient(to left, red, orange);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'Kalnia', sans-serif;
+}
+
+.search {
+    height: 25px;
+    padding: 16px;
+    border: gray solid;
+    border-radius: 20px;
+    /* margin-right: 10px; */
+    margin: 18px 70px 0 0;
+}
+
+.snap {
+    color: #B99470;
+    font-size: 35px;
+}
+
+.soon {
+    color: #5B9A8B;
+    font-size: 35px;
+}
+
+.scrolling {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(5, 220px);
+    grid-template-rows: repeat(5);
+    margin: 3rem;
+    /* grid-auto-flow: column; */
+    margin-top: 2rem;
+    /* overflow-x: auto; */
+    /* overscroll-behavior-inline: contain; */
+
+}
+
+.products {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* border: solid 2px gray; */
+    border-radius: 10px;
+    background-color: white;
+    width: 230px;
+    height: 350px;
+    padding: 10px;
+    line-height: 0.4;
+}
+
+.products a img {
+    width: 200px;
+    height: 200px;
+
+}
+
+.kg {
+    font-size: smaller;
+    font-family: monospace;
+    opacity: 40%;
+}
+
+.product-price {
+    font-family: monospace;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1
+}
+
+.product-title {
+    font-family: 'afacad';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 3;
+}
+
+.product-btn {
+    position: absolute;
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+    opacity: 80%;
+    position: absolute;
+    font-family: 'Poppins';
+    padding: 5px 20px 5px 20px;
+    border-radius: 9px;
+    transform: translateY(310px);
+    left: 150px;
+
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.footer {
+    height: 200px;
+    background-color: gray;
+}
+
+.container {
+    display: flex;
+    justify-content: right;
+    margin-right: 5rem;
+    gap: 1rem;
+}
+
+i.fa-brands {
+    margin-top: 2.5rem;
+    font-size: 2.5rem;
+    size: 3rem;
+    color: black;
+}
+
+.copyright {
+    text-align: right;
+    margin-right: 5rem;
+}
